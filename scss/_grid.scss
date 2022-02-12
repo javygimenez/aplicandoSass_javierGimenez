@@ -1,0 +1,65 @@
+/*NOMBRES DE AREAS INDEX*/
+body{
+    header{
+        grid-area: cabeza;
+        padding: 10px;
+    }
+    .seccion1{
+        grid-area: cuerpo1;
+        padding: 10px;
+    }
+    .seccion2{
+        grid-area: cuerpo2;
+        padding: 10px;
+    }
+    .seccion3{
+        grid-area: cuerpo3;
+        padding: 10px;
+    }
+    .seccion4{
+        grid-area: cuerpo4;
+        padding: 10px;
+    }
+    aside{
+        grid-area: brazo;
+        padding: 10px;
+    }
+    footer{
+        grid-area: pie;
+        padding: 10px;
+    }    
+}
+/* GRID AREAS INDEX */
+.gridAreas{
+    display: grid;
+    grid-template-areas:
+    "cabeza cabeza cabeza"
+    "cuerpo1 cuerpo2 brazo"
+    "cuerpo3 cuerpo4 brazo"
+    "pie pie pie" 
+    ;
+    grid-template-columns:  40% 40% 20%;
+    grid-template-rows: 550px 1fr 1fr 200px;                            
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;                   
+}
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+

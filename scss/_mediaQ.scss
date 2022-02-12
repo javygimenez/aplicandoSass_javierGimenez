@@ -1,0 +1,120 @@
+/* MQ TABLETS */
+@media (min-width: 480px) and (max-width: 1024px) {    
+        .gridAreas{
+            display: grid;
+            grid-template-areas:
+            "cabeza cabeza"
+            "cuerpo1 cuerpo2"
+            "cuerpo3 cuerpo4"
+            "brazo brazo"
+            "pie pie" 
+            ;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 550px 1fr 1fr 200px 200px;                            
+            grid-column-gap: 10px;
+            grid-row-gap: 5px;
+              header{
+                h2{
+                    font-size: 1.7rem;
+                }
+                nav{
+                    .libg{
+                        padding: 3px 5px;
+                        margin: 5px;
+                        width: 90px;
+                        border: #03422f solid 4px;    
+                    }
+                }
+              }
+              .seccion1 { 
+                 .fondoArticle{
+                    width: 100%;
+                    height: 30vh;
+                    .parrafoIndex{    
+                        font-size: 0.80rem;
+                        padding: 10px;
+                    }       
+                  }                
+                }
+                .seccion2 { 
+                    .fondoArticle{
+                       width: 100%;
+                       height: 30vh;
+                       .parrafoIndex{    
+                           font-size: 0.80rem;
+                           padding: 10px;
+                        }       
+                    }                
+                }
+                .seccion3 { 
+                    .fondoArticle{
+                       width: 100%;
+                       height: 30vh;
+                       .parrafoIndex{    
+                           font-size: 0.80rem;
+                           padding: 10px;
+                        }       
+                    }                
+                }
+                .seccion4 { 
+                    .fondoArticle{
+                       width: 100%;
+                       height: 30vh;
+                       .parrafoIndex{    
+                           font-size: 0.80rem;
+                           padding: 10px;
+                        }       
+                    }                
+                }              
+        }
+
+}
+
+/* MQ SMARTPHONE */
+@media (max-width: 479px){
+    .gridAreas{
+        display: grid;
+        grid-template-areas:
+        "cabeza"
+        "cuerpo1"
+        "cuerpo2"
+        "cuerpo3"
+        "cuerpo4"
+        "brazo"
+        "pie" 
+        ;
+        grid-template-columns: 100%;
+        grid-template-rows: 650px 1fr 1fr 1fr 1fr 200px 200px;                            
+        grid-column-gap: 10px;
+        grid-row-gap: 5px;
+        header{
+            .imgLogo{
+                border: #09ab82 solid 5px;
+                width: 200px;
+                height: 200px;
+            }
+            .titulo {      
+                text-align: start;        
+                font-size: 3rem;
+            }
+            nav{
+                .ulFlex{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align: center;
+                    .libg{
+                        margin: 1px;
+                        border: #03422f solid 4px;  
+                    }
+                }
+            }
+            h2{
+                font-size: 1.5rem;
+            }
+        }
+        .parrafoIndex{        
+            font-size: 0.75rem;
+        }               
+    }    
+}
